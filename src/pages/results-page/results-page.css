@@ -1,0 +1,58 @@
+.AppGlass {
+    width: 99%;
+    /* background: var(--glass2); */
+    overflow: hidden;
+    backdrop-filter: blur(15px) saturate(100%);
+      -webkit-backdrop-filter: blur(15px) saturate(200%);
+      background-color: rgba(26, 30, 35, 0.35);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+  .AppGlassB {
+    width: 99%;
+    /* background: var(--glass2); */
+    overflow: hidden;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+  }
+
+
+  .card {
+    width: 99%;
+    /* background: var(--glass2); */
+    overflow: hidden;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+/* styles.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999; /* ensure it's above other content */
+  }
+  
+  .modal-content {
+    width: 90%;
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(0, 0, 0, 0.75);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
